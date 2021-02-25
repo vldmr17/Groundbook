@@ -3,16 +3,68 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		11F4914A2730CDCF5D4EC278 /* Pods_GroundbookTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1672C56C579A81BF4BC0E1E2 /* Pods_GroundbookTests.framework */; };
+		2604D56F7D086B2BC03AC861 /* Pods_Groundbook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48F795EA41A147EAB4695EEE /* Pods_Groundbook.framework */; };
+		3E249986F08D471042628970 /* Pods_Groundbook_GroundbookUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71709F7041421D448C9E951F /* Pods_Groundbook_GroundbookUITests.framework */; };
+		8403975B256FC4BB00924F57 /* Ground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8403975A256FC4BB00924F57 /* Ground.swift */; };
+		840397802575565800924F57 /* AddMatchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8403977F2575565800924F57 /* AddMatchView.swift */; };
+		8403978525768BAE00924F57 /* TeamPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8403978425768BAE00924F57 /* TeamPickerView.swift */; };
+		8403978A2576A04800924F57 /* Country.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840397892576A04800924F57 /* Country.swift */; };
+		8403978F2576A06600924F57 /* Team.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8403978E2576A06600924F57 /* Team.swift */; };
+		840397942576A07400924F57 /* Tournament.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840397932576A07400924F57 /* Tournament.swift */; };
+		840397992576A13C00924F57 /* TeamsOfCountryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840397982576A13C00924F57 /* TeamsOfCountryView.swift */; };
+		840397CF2577E0EE00924F57 /* GroundPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840397CE2577E0ED00924F57 /* GroundPickerView.swift */; };
+		840397D92577E12D00924F57 /* TournamentPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840397D82577E12D00924F57 /* TournamentPickerView.swift */; };
+		840397E62577E21C00924F57 /* GroundsOfCountryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840397E52577E21C00924F57 /* GroundsOfCountryView.swift */; };
+		840397EE2577EE3A00924F57 /* TournamentsOfCountryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840397ED2577EE3900924F57 /* TournamentsOfCountryView.swift */; };
+		840397F62577F73B00924F57 /* SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840397F52577F73B00924F57 /* SearchBar.swift */; };
 		8462BECD2560132B006B6FFA /* GroundbookApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8462BECC2560132B006B6FFA /* GroundbookApp.swift */; };
 		8462BECF2560132B006B6FFA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8462BECE2560132B006B6FFA /* ContentView.swift */; };
 		8462BED12560132F006B6FFA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8462BED02560132F006B6FFA /* Assets.xcassets */; };
 		8462BED42560132F006B6FFA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8462BED32560132F006B6FFA /* Preview Assets.xcassets */; };
 		8462BEDF2560132F006B6FFA /* GroundbookTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8462BEDE2560132F006B6FFA /* GroundbookTests.swift */; };
 		8462BEEA2560132F006B6FFA /* GroundbookUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8462BEE92560132F006B6FFA /* GroundbookUITests.swift */; };
+		8462BEFB2560431A006B6FFA /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8462BEFA2560431A006B6FFA /* GoogleService-Info.plist */; };
+		8462BF3B25616AC1006B6FFA /* SessionStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8462BF3A25616AC0006B6FFA /* SessionStore.swift */; };
+		8462BF4425616B40006B6FFA /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8462BF4325616B40006B6FFA /* User.swift */; };
+		8462BF4A25616CC0006B6FFA /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8462BF4925616CC0006B6FFA /* SignInView.swift */; };
+		84682DCA25A771DC008B2146 /* ChallengeGroundPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84682DC925A771DC008B2146 /* ChallengeGroundPickerView.swift */; };
+		84682DD725A772C2008B2146 /* ChallengeGroundsOfCountryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84682DD625A772C2008B2146 /* ChallengeGroundsOfCountryView.swift */; };
+		84682DDC25A88F9B008B2146 /* ChallengeDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84682DDB25A88F9B008B2146 /* ChallengeDetailsView.swift */; };
+		848EEB6025C9471F0007384F /* TeamMatchesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848EEB5F25C9471F0007384F /* TeamMatchesView.swift */; };
+		848EEB6825C948AD0007384F /* CountryMatchesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848EEB6725C948AD0007384F /* CountryMatchesView.swift */; };
+		848EEBCD25D855CE0007384F /* DBService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848EEBCC25D855CE0007384F /* DBService.swift */; };
+		848EEC2525DFAE090007384F /* SignInViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848EEC2425DFAE090007384F /* SignInViewModel.swift */; };
+		848EEC2D25DFF7D80007384F /* SignUpViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848EEC2C25DFF7D70007384F /* SignUpViewModel.swift */; };
+		848EEC3525DFF93E0007384F /* EmailVerificationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848EEC3425DFF93E0007384F /* EmailVerificationViewModel.swift */; };
+		848EEC3A25DFFAB10007384F /* AddMatchViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848EEC3925DFFAB10007384F /* AddMatchViewModel.swift */; };
+		84977D502563AAF800B08B50 /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84977D4F2563AAF800B08B50 /* SignUpView.swift */; };
+		84977D552563E5A000B08B50 /* EmailVerificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84977D542563E59F00B08B50 /* EmailVerificationView.swift */; };
+		849EFD732594C52000DC7FC0 /* EditMatchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849EFD722594C52000DC7FC0 /* EditMatchView.swift */; };
+		849EFDF4259E5C1900DC7FC0 /* GroundInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849EFDF3259E5C1900DC7FC0 /* GroundInfoView.swift */; };
+		849EFDFC259E5F1800DC7FC0 /* GroundMatchesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849EFDFB259E5F1800DC7FC0 /* GroundMatchesView.swift */; };
+		849EFE07259FB59C00DC7FC0 /* AddChallengeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849EFE06259FB59C00DC7FC0 /* AddChallengeView.swift */; };
+		849EFE0F25A0AE1D00DC7FC0 /* Challenge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849EFE0E25A0AE1D00DC7FC0 /* Challenge.swift */; };
+		84ABAD0A25BB500300D31A4F /* TeamsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84ABAD0925BB500300D31A4F /* TeamsView.swift */; };
+		84ABAD1225BC7D2A00D31A4F /* CountriesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84ABAD1125BC7D2A00D31A4F /* CountriesView.swift */; };
+		84ABAD1A25BD8E3000D31A4F /* StatisticsProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84ABAD1925BD8E2F00D31A4F /* StatisticsProvider.swift */; };
+		84ABAD2225BF269700D31A4F /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84ABAD2125BF269700D31A4F /* MapView.swift */; };
+		84ABAD2F25C0577200D31A4F /* MapFiltersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84ABAD2E25C0577200D31A4F /* MapFiltersView.swift */; };
+		84ABAD4925C2EBB900D31A4F /* BottomSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84ABAD4825C2EBB900D31A4F /* BottomSheetView.swift */; };
+		84E47414257A38FC008C9296 /* Match.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E47413257A38FC008C9296 /* Match.swift */; };
+		84E4741A257A592E008C9296 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E47419257A592E008C9296 /* HomeView.swift */; };
+		84E47422257A59A4008C9296 /* ChallengesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E47421257A59A4008C9296 /* ChallengesView.swift */; };
+		84E47427257A5A06008C9296 /* MatchesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E47426257A5A06008C9296 /* MatchesView.swift */; };
+		84E4742C257A5A4D008C9296 /* MainMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E4742B257A5A4D008C9296 /* MainMapView.swift */; };
+		84E47434257A5DDC008C9296 /* GroundsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E47433257A5DDC008C9296 /* GroundsView.swift */; };
+		84E90DAA25E2D89F0004A118 /* AddChallengeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E90DA925E2D89F0004A118 /* AddChallengeViewModel.swift */; };
+		84E90DB525E3AE930004A118 /* ChallengeDetailsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E90DB425E3AE920004A118 /* ChallengeDetailsViewModel.swift */; };
+		84E90DD325E4106D0004A118 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E90DD225E4106D0004A118 /* HomeViewModel.swift */; };
+		84E90DDB25E42A780004A118 /* EditMatchViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E90DDA25E42A780004A118 /* EditMatchViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,6 +85,24 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1672C56C579A81BF4BC0E1E2 /* Pods_GroundbookTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GroundbookTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F3C852DF9B741F9A2645CFB /* Pods-Groundbook.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Groundbook.release.xcconfig"; path = "Target Support Files/Pods-Groundbook/Pods-Groundbook.release.xcconfig"; sourceTree = "<group>"; };
+		48F795EA41A147EAB4695EEE /* Pods_Groundbook.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Groundbook.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		696305D469BD783BEE7BBD64 /* Pods-Groundbook-GroundbookUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Groundbook-GroundbookUITests.release.xcconfig"; path = "Target Support Files/Pods-Groundbook-GroundbookUITests/Pods-Groundbook-GroundbookUITests.release.xcconfig"; sourceTree = "<group>"; };
+		71709F7041421D448C9E951F /* Pods_Groundbook_GroundbookUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Groundbook_GroundbookUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F0868B2BF660B265FCFA9DF /* Pods-GroundbookTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GroundbookTests.debug.xcconfig"; path = "Target Support Files/Pods-GroundbookTests/Pods-GroundbookTests.debug.xcconfig"; sourceTree = "<group>"; };
+		8403975A256FC4BB00924F57 /* Ground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ground.swift; sourceTree = "<group>"; };
+		8403977F2575565800924F57 /* AddMatchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddMatchView.swift; sourceTree = "<group>"; };
+		8403978425768BAE00924F57 /* TeamPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamPickerView.swift; sourceTree = "<group>"; };
+		840397892576A04800924F57 /* Country.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Country.swift; sourceTree = "<group>"; };
+		8403978E2576A06600924F57 /* Team.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Team.swift; sourceTree = "<group>"; };
+		840397932576A07400924F57 /* Tournament.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tournament.swift; sourceTree = "<group>"; };
+		840397982576A13C00924F57 /* TeamsOfCountryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamsOfCountryView.swift; sourceTree = "<group>"; };
+		840397CE2577E0ED00924F57 /* GroundPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroundPickerView.swift; sourceTree = "<group>"; };
+		840397D82577E12D00924F57 /* TournamentPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TournamentPickerView.swift; sourceTree = "<group>"; };
+		840397E52577E21C00924F57 /* GroundsOfCountryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroundsOfCountryView.swift; sourceTree = "<group>"; };
+		840397ED2577EE3900924F57 /* TournamentsOfCountryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TournamentsOfCountryView.swift; sourceTree = "<group>"; };
+		840397F52577F73B00924F57 /* SearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBar.swift; sourceTree = "<group>"; };
 		8462BEC92560132B006B6FFA /* Groundbook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Groundbook.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8462BECC2560132B006B6FFA /* GroundbookApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroundbookApp.swift; sourceTree = "<group>"; };
 		8462BECE2560132B006B6FFA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -45,6 +115,46 @@
 		8462BEE52560132F006B6FFA /* GroundbookUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GroundbookUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8462BEE92560132F006B6FFA /* GroundbookUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroundbookUITests.swift; sourceTree = "<group>"; };
 		8462BEEB2560132F006B6FFA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8462BEFA2560431A006B6FFA /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		8462BF3A25616AC0006B6FFA /* SessionStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionStore.swift; sourceTree = "<group>"; };
+		8462BF4325616B40006B6FFA /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		8462BF4925616CC0006B6FFA /* SignInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInView.swift; sourceTree = "<group>"; };
+		84682DC925A771DC008B2146 /* ChallengeGroundPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChallengeGroundPickerView.swift; sourceTree = "<group>"; };
+		84682DD625A772C2008B2146 /* ChallengeGroundsOfCountryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChallengeGroundsOfCountryView.swift; sourceTree = "<group>"; };
+		84682DDB25A88F9B008B2146 /* ChallengeDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChallengeDetailsView.swift; sourceTree = "<group>"; };
+		848EEB5F25C9471F0007384F /* TeamMatchesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamMatchesView.swift; sourceTree = "<group>"; };
+		848EEB6725C948AD0007384F /* CountryMatchesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryMatchesView.swift; sourceTree = "<group>"; };
+		848EEBCC25D855CE0007384F /* DBService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DBService.swift; sourceTree = "<group>"; };
+		848EEC2425DFAE090007384F /* SignInViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewModel.swift; sourceTree = "<group>"; };
+		848EEC2C25DFF7D70007384F /* SignUpViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewModel.swift; sourceTree = "<group>"; };
+		848EEC3425DFF93E0007384F /* EmailVerificationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailVerificationViewModel.swift; sourceTree = "<group>"; };
+		848EEC3925DFFAB10007384F /* AddMatchViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddMatchViewModel.swift; sourceTree = "<group>"; };
+		84977D4F2563AAF800B08B50 /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
+		84977D542563E59F00B08B50 /* EmailVerificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailVerificationView.swift; sourceTree = "<group>"; };
+		849EFD722594C52000DC7FC0 /* EditMatchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditMatchView.swift; sourceTree = "<group>"; };
+		849EFDF3259E5C1900DC7FC0 /* GroundInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroundInfoView.swift; sourceTree = "<group>"; };
+		849EFDFB259E5F1800DC7FC0 /* GroundMatchesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroundMatchesView.swift; sourceTree = "<group>"; };
+		849EFE06259FB59C00DC7FC0 /* AddChallengeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddChallengeView.swift; sourceTree = "<group>"; };
+		849EFE0E25A0AE1D00DC7FC0 /* Challenge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Challenge.swift; sourceTree = "<group>"; };
+		84ABAD0925BB500300D31A4F /* TeamsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamsView.swift; sourceTree = "<group>"; };
+		84ABAD1125BC7D2A00D31A4F /* CountriesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountriesView.swift; sourceTree = "<group>"; };
+		84ABAD1925BD8E2F00D31A4F /* StatisticsProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatisticsProvider.swift; sourceTree = "<group>"; };
+		84ABAD2125BF269700D31A4F /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		84ABAD2E25C0577200D31A4F /* MapFiltersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapFiltersView.swift; sourceTree = "<group>"; };
+		84ABAD4825C2EBB900D31A4F /* BottomSheetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomSheetView.swift; sourceTree = "<group>"; };
+		84E47413257A38FC008C9296 /* Match.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Match.swift; sourceTree = "<group>"; };
+		84E47419257A592E008C9296 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		84E47421257A59A4008C9296 /* ChallengesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChallengesView.swift; sourceTree = "<group>"; };
+		84E47426257A5A06008C9296 /* MatchesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchesView.swift; sourceTree = "<group>"; };
+		84E4742B257A5A4D008C9296 /* MainMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMapView.swift; sourceTree = "<group>"; };
+		84E47433257A5DDC008C9296 /* GroundsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroundsView.swift; sourceTree = "<group>"; };
+		84E90DA925E2D89F0004A118 /* AddChallengeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddChallengeViewModel.swift; sourceTree = "<group>"; };
+		84E90DB425E3AE920004A118 /* ChallengeDetailsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChallengeDetailsViewModel.swift; sourceTree = "<group>"; };
+		84E90DD225E4106D0004A118 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		84E90DDA25E42A780004A118 /* EditMatchViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditMatchViewModel.swift; sourceTree = "<group>"; };
+		86550F1BAD38E0E6697DF4A1 /* Pods-Groundbook-GroundbookUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Groundbook-GroundbookUITests.debug.xcconfig"; path = "Target Support Files/Pods-Groundbook-GroundbookUITests/Pods-Groundbook-GroundbookUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		C0A77A022506616812884951 /* Pods-Groundbook.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Groundbook.debug.xcconfig"; path = "Target Support Files/Pods-Groundbook/Pods-Groundbook.debug.xcconfig"; sourceTree = "<group>"; };
+		D00D4EFFD5605E8EFA052791 /* Pods-GroundbookTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GroundbookTests.release.xcconfig"; path = "Target Support Files/Pods-GroundbookTests/Pods-GroundbookTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +162,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2604D56F7D086B2BC03AC861 /* Pods_Groundbook.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,6 +170,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				11F4914A2730CDCF5D4EC278 /* Pods_GroundbookTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,19 +178,53 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3E249986F08D471042628970 /* Pods_Groundbook_GroundbookUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		39E19949190AE21A42DF5987 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C0A77A022506616812884951 /* Pods-Groundbook.debug.xcconfig */,
+				3F3C852DF9B741F9A2645CFB /* Pods-Groundbook.release.xcconfig */,
+				86550F1BAD38E0E6697DF4A1 /* Pods-Groundbook-GroundbookUITests.debug.xcconfig */,
+				696305D469BD783BEE7BBD64 /* Pods-Groundbook-GroundbookUITests.release.xcconfig */,
+				7F0868B2BF660B265FCFA9DF /* Pods-GroundbookTests.debug.xcconfig */,
+				D00D4EFFD5605E8EFA052791 /* Pods-GroundbookTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		844970002567F04200242BAD /* Authentication */ = {
+			isa = PBXGroup;
+			children = (
+				8462BF3A25616AC0006B6FFA /* SessionStore.swift */,
+				8462BF4325616B40006B6FFA /* User.swift */,
+				8462BF4925616CC0006B6FFA /* SignInView.swift */,
+				848EEC2425DFAE090007384F /* SignInViewModel.swift */,
+				84977D4F2563AAF800B08B50 /* SignUpView.swift */,
+				848EEC2C25DFF7D70007384F /* SignUpViewModel.swift */,
+				84977D542563E59F00B08B50 /* EmailVerificationView.swift */,
+				848EEC3425DFF93E0007384F /* EmailVerificationViewModel.swift */,
+			);
+			path = Authentication;
+			sourceTree = "<group>";
+		};
 		8462BEC02560132B006B6FFA = {
 			isa = PBXGroup;
 			children = (
+				844970002567F04200242BAD /* Authentication */,
+				8462BF4825616CAA006B6FFA /* Views */,
+				8462BF4225616B31006B6FFA /* Models */,
 				8462BECB2560132B006B6FFA /* Groundbook */,
 				8462BEDD2560132F006B6FFA /* GroundbookTests */,
 				8462BEE82560132F006B6FFA /* GroundbookUITests */,
 				8462BECA2560132B006B6FFA /* Products */,
+				39E19949190AE21A42DF5987 /* Pods */,
+				A7383153EF321D0716BB6CBB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,6 +245,7 @@
 				8462BECE2560132B006B6FFA /* ContentView.swift */,
 				8462BED02560132F006B6FFA /* Assets.xcassets */,
 				8462BED52560132F006B6FFA /* Info.plist */,
+				8462BEFA2560431A006B6FFA /* GoogleService-Info.plist */,
 				8462BED22560132F006B6FFA /* Preview Content */,
 			);
 			path = Groundbook;
@@ -130,6 +277,94 @@
 			path = GroundbookUITests;
 			sourceTree = "<group>";
 		};
+		8462BF4225616B31006B6FFA /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				848EEBB925D84E610007384F /* Entities */,
+				848EEBCC25D855CE0007384F /* DBService.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		8462BF4825616CAA006B6FFA /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				84E47418257A58D1008C9296 /* AddMatch */,
+				84682DE525A8E1A5008B2146 /* Challenges */,
+				840397F52577F73B00924F57 /* SearchBar.swift */,
+				84E47419257A592E008C9296 /* HomeView.swift */,
+				84E90DD225E4106D0004A118 /* HomeViewModel.swift */,
+				84ABAD1925BD8E2F00D31A4F /* StatisticsProvider.swift */,
+				84E47426257A5A06008C9296 /* MatchesView.swift */,
+				849EFD722594C52000DC7FC0 /* EditMatchView.swift */,
+				84E90DDA25E42A780004A118 /* EditMatchViewModel.swift */,
+				84E47433257A5DDC008C9296 /* GroundsView.swift */,
+				849EFDFB259E5F1800DC7FC0 /* GroundMatchesView.swift */,
+				849EFDF3259E5C1900DC7FC0 /* GroundInfoView.swift */,
+				84ABAD0925BB500300D31A4F /* TeamsView.swift */,
+				848EEB5F25C9471F0007384F /* TeamMatchesView.swift */,
+				84ABAD1125BC7D2A00D31A4F /* CountriesView.swift */,
+				848EEB6725C948AD0007384F /* CountryMatchesView.swift */,
+				84E4742B257A5A4D008C9296 /* MainMapView.swift */,
+				84ABAD2125BF269700D31A4F /* MapView.swift */,
+				84ABAD2E25C0577200D31A4F /* MapFiltersView.swift */,
+				84ABAD4825C2EBB900D31A4F /* BottomSheetView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		84682DE525A8E1A5008B2146 /* Challenges */ = {
+			isa = PBXGroup;
+			children = (
+				84E47421257A59A4008C9296 /* ChallengesView.swift */,
+				849EFE06259FB59C00DC7FC0 /* AddChallengeView.swift */,
+				84E90DA925E2D89F0004A118 /* AddChallengeViewModel.swift */,
+				84682DC925A771DC008B2146 /* ChallengeGroundPickerView.swift */,
+				84682DD625A772C2008B2146 /* ChallengeGroundsOfCountryView.swift */,
+				84682DDB25A88F9B008B2146 /* ChallengeDetailsView.swift */,
+				84E90DB425E3AE920004A118 /* ChallengeDetailsViewModel.swift */,
+			);
+			path = Challenges;
+			sourceTree = "<group>";
+		};
+		848EEBB925D84E610007384F /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				8403975A256FC4BB00924F57 /* Ground.swift */,
+				840397892576A04800924F57 /* Country.swift */,
+				8403978E2576A06600924F57 /* Team.swift */,
+				840397932576A07400924F57 /* Tournament.swift */,
+				84E47413257A38FC008C9296 /* Match.swift */,
+				849EFE0E25A0AE1D00DC7FC0 /* Challenge.swift */,
+			);
+			path = Entities;
+			sourceTree = "<group>";
+		};
+		84E47418257A58D1008C9296 /* AddMatch */ = {
+			isa = PBXGroup;
+			children = (
+				8403977F2575565800924F57 /* AddMatchView.swift */,
+				848EEC3925DFFAB10007384F /* AddMatchViewModel.swift */,
+				8403978425768BAE00924F57 /* TeamPickerView.swift */,
+				840397982576A13C00924F57 /* TeamsOfCountryView.swift */,
+				840397CE2577E0ED00924F57 /* GroundPickerView.swift */,
+				840397E52577E21C00924F57 /* GroundsOfCountryView.swift */,
+				840397D82577E12D00924F57 /* TournamentPickerView.swift */,
+				840397ED2577EE3900924F57 /* TournamentsOfCountryView.swift */,
+			);
+			path = AddMatch;
+			sourceTree = "<group>";
+		};
+		A7383153EF321D0716BB6CBB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				48F795EA41A147EAB4695EEE /* Pods_Groundbook.framework */,
+				71709F7041421D448C9E951F /* Pods_Groundbook_GroundbookUITests.framework */,
+				1672C56C579A81BF4BC0E1E2 /* Pods_GroundbookTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -137,9 +372,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8462BEEE2560132F006B6FFA /* Build configuration list for PBXNativeTarget "Groundbook" */;
 			buildPhases = (
+				9CF9FA2DAD8658F5ACD9F319 /* [CP] Check Pods Manifest.lock */,
 				8462BEC52560132B006B6FFA /* Sources */,
 				8462BEC62560132B006B6FFA /* Frameworks */,
 				8462BEC72560132B006B6FFA /* Resources */,
+				CFDB1722497E014CEEF262A2 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -154,6 +391,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8462BEF12560132F006B6FFA /* Build configuration list for PBXNativeTarget "GroundbookTests" */;
 			buildPhases = (
+				303143DEA509D1430FCA1D47 /* [CP] Check Pods Manifest.lock */,
 				8462BED62560132F006B6FFA /* Sources */,
 				8462BED72560132F006B6FFA /* Frameworks */,
 				8462BED82560132F006B6FFA /* Resources */,
@@ -172,9 +410,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8462BEF42560132F006B6FFA /* Build configuration list for PBXNativeTarget "GroundbookUITests" */;
 			buildPhases = (
+				5812B74ED1A110800C40C5F6 /* [CP] Check Pods Manifest.lock */,
 				8462BEE12560132F006B6FFA /* Sources */,
 				8462BEE22560132F006B6FFA /* Frameworks */,
 				8462BEE32560132F006B6FFA /* Resources */,
+				0FBCCD921F383D7CA30337F2 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -235,6 +475,7 @@
 			files = (
 				8462BED42560132F006B6FFA /* Preview Assets.xcassets in Resources */,
 				8462BED12560132F006B6FFA /* Assets.xcassets in Resources */,
+				8462BEFB2560431A006B6FFA /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -254,13 +495,164 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0FBCCD921F383D7CA30337F2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Groundbook-GroundbookUITests/Pods-Groundbook-GroundbookUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Groundbook-GroundbookUITests/Pods-Groundbook-GroundbookUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Groundbook-GroundbookUITests/Pods-Groundbook-GroundbookUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		303143DEA509D1430FCA1D47 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GroundbookTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5812B74ED1A110800C40C5F6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Groundbook-GroundbookUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9CF9FA2DAD8658F5ACD9F319 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Groundbook-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CFDB1722497E014CEEF262A2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Groundbook/Pods-Groundbook-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Groundbook/Pods-Groundbook-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Groundbook/Pods-Groundbook-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		8462BEC52560132B006B6FFA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				848EEC3525DFF93E0007384F /* EmailVerificationViewModel.swift in Sources */,
+				84ABAD1225BC7D2A00D31A4F /* CountriesView.swift in Sources */,
+				849EFD732594C52000DC7FC0 /* EditMatchView.swift in Sources */,
+				84E47422257A59A4008C9296 /* ChallengesView.swift in Sources */,
+				840397942576A07400924F57 /* Tournament.swift in Sources */,
+				84ABAD2225BF269700D31A4F /* MapView.swift in Sources */,
+				8462BF4425616B40006B6FFA /* User.swift in Sources */,
+				848EEB6025C9471F0007384F /* TeamMatchesView.swift in Sources */,
+				84E47434257A5DDC008C9296 /* GroundsView.swift in Sources */,
+				848EEC2525DFAE090007384F /* SignInViewModel.swift in Sources */,
+				8403978F2576A06600924F57 /* Team.swift in Sources */,
+				84ABAD4925C2EBB900D31A4F /* BottomSheetView.swift in Sources */,
 				8462BECF2560132B006B6FFA /* ContentView.swift in Sources */,
+				84E47427257A5A06008C9296 /* MatchesView.swift in Sources */,
+				849EFDF4259E5C1900DC7FC0 /* GroundInfoView.swift in Sources */,
+				848EEB6825C948AD0007384F /* CountryMatchesView.swift in Sources */,
+				840397EE2577EE3A00924F57 /* TournamentsOfCountryView.swift in Sources */,
+				848EEC3A25DFFAB10007384F /* AddMatchViewModel.swift in Sources */,
+				8403978525768BAE00924F57 /* TeamPickerView.swift in Sources */,
+				849EFDFC259E5F1800DC7FC0 /* GroundMatchesView.swift in Sources */,
+				84682DCA25A771DC008B2146 /* ChallengeGroundPickerView.swift in Sources */,
+				849EFE0F25A0AE1D00DC7FC0 /* Challenge.swift in Sources */,
+				8403978A2576A04800924F57 /* Country.swift in Sources */,
+				84E90DDB25E42A780004A118 /* EditMatchViewModel.swift in Sources */,
+				840397D92577E12D00924F57 /* TournamentPickerView.swift in Sources */,
+				84682DDC25A88F9B008B2146 /* ChallengeDetailsView.swift in Sources */,
 				8462BECD2560132B006B6FFA /* GroundbookApp.swift in Sources */,
+				840397802575565800924F57 /* AddMatchView.swift in Sources */,
+				840397CF2577E0EE00924F57 /* GroundPickerView.swift in Sources */,
+				848EEBCD25D855CE0007384F /* DBService.swift in Sources */,
+				84977D502563AAF800B08B50 /* SignUpView.swift in Sources */,
+				84E90DB525E3AE930004A118 /* ChallengeDetailsViewModel.swift in Sources */,
+				84ABAD2F25C0577200D31A4F /* MapFiltersView.swift in Sources */,
+				840397992576A13C00924F57 /* TeamsOfCountryView.swift in Sources */,
+				848EEC2D25DFF7D80007384F /* SignUpViewModel.swift in Sources */,
+				840397E62577E21C00924F57 /* GroundsOfCountryView.swift in Sources */,
+				84977D552563E5A000B08B50 /* EmailVerificationView.swift in Sources */,
+				8403975B256FC4BB00924F57 /* Ground.swift in Sources */,
+				84ABAD0A25BB500300D31A4F /* TeamsView.swift in Sources */,
+				849EFE07259FB59C00DC7FC0 /* AddChallengeView.swift in Sources */,
+				840397F62577F73B00924F57 /* SearchBar.swift in Sources */,
+				84E47414257A38FC008C9296 /* Match.swift in Sources */,
+				84682DD725A772C2008B2146 /* ChallengeGroundsOfCountryView.swift in Sources */,
+				84ABAD1A25BD8E3000D31A4F /* StatisticsProvider.swift in Sources */,
+				84E4742C257A5A4D008C9296 /* MainMapView.swift in Sources */,
+				84E90DD325E4106D0004A118 /* HomeViewModel.swift in Sources */,
+				84E90DAA25E2D89F0004A118 /* AddChallengeViewModel.swift in Sources */,
+				8462BF3B25616AC1006B6FFA /* SessionStore.swift in Sources */,
+				84E4741A257A592E008C9296 /* HomeView.swift in Sources */,
+				8462BF4A25616CC0006B6FFA /* SignInView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -414,6 +806,7 @@
 		};
 		8462BEEF2560132F006B6FFA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C0A77A022506616812884951 /* Pods-Groundbook.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -436,6 +829,7 @@
 		};
 		8462BEF02560132F006B6FFA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3F3C852DF9B741F9A2645CFB /* Pods-Groundbook.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -458,6 +852,7 @@
 		};
 		8462BEF22560132F006B6FFA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7F0868B2BF660B265FCFA9DF /* Pods-GroundbookTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -480,6 +875,7 @@
 		};
 		8462BEF32560132F006B6FFA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D00D4EFFD5605E8EFA052791 /* Pods-GroundbookTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -502,6 +898,7 @@
 		};
 		8462BEF52560132F006B6FFA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 86550F1BAD38E0E6697DF4A1 /* Pods-Groundbook-GroundbookUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -522,6 +919,7 @@
 		};
 		8462BEF62560132F006B6FFA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 696305D469BD783BEE7BBD64 /* Pods-Groundbook-GroundbookUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
